@@ -1,0 +1,8 @@
+CREATE TABLE dishes (
+  id SERIAL PRIMARY KEY,
+   name VARCHAR NOT NULL,
+   calories_per_serving DOUBLE PRECISION NOT NULL,
+   proteins DOUBLE PRECISION NOT NULL,
+   fats DOUBLE PRECISION NOT NULL,
+   carbohydrates DOUBLE PRECISION NOT NULL
+);

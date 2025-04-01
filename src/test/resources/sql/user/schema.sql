@@ -1,0 +1,10 @@
+CREATE TABLE users (
+   id SERIAL PRIMARY KEY,
+   name VARCHAR NOT NULL,
+   email VARCHAR NOT NULL,
+   age INTEGER NOT NULL,
+   weight DOUBLE PRECISION NOT NULL,
+   height DOUBLE PRECISION NOT NULL,
+   target VARCHAR NOT NULL,
+   basic_calorie_requirements DOUBLE PRECISION
+);

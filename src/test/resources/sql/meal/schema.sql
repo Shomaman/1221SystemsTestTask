@@ -26,7 +26,7 @@ CREATE TABLE meals (
 );
 
 CREATE TABLE meals_dishes (
-    meal_id integer REFERENCES meals,
+    meals_id integer REFERENCES meals,
     dishes_id integer REFERENCES dishes,
-    PRIMARY KEY (meal_id, dishes_id)
+    PRIMARY KEY (meals_id, dishes_id)
 );
